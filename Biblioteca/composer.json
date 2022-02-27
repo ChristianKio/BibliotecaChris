@@ -1,0 +1,10 @@
+{
+    "require": {
+        "eftec/bladeone": "^4.4",
+        "ext-pdo": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}
