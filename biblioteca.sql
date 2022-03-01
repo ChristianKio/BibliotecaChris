@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-02-2022 a las 18:46:26
+-- Tiempo de generación: 01-03-2022 a las 01:09:09
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -152,7 +152,7 @@ CREATE TABLE `usuarios` (
   `apellido` tinytext COLLATE utf8_spanish_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
   `username` varchar(30) COLLATE utf8_spanish_ci NOT NULL,
-  `password` varchar(32) COLLATE utf8_spanish_ci NOT NULL,
+  `password` varchar(300) COLLATE utf8_spanish_ci NOT NULL,
   `avatar` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
   `tipo` enum('bibliotecario','alumno') COLLATE utf8_spanish_ci NOT NULL,
   `activo` tinyint(1) NOT NULL,
